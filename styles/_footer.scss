@@ -1,0 +1,40 @@
+footer{
+
+  .content{
+    @media (min-width:$medium) {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  .list-title{
+    font-width:700;
+  }
+  li a{
+    display: inline-block;
+    color: #000;
+    padding: $unit-small 0;
+    &:hover{
+      color:#4f63b8;
+    }
+  }
+
+}
+
+.footer-list-1{
+  ul{
+    column-count: 2;
+  }
+  margin-bottom: $unit;
+  border-bottom: 1px solid #ccc;
+  @media (min-width:$small){
+    border-bottom:none;
+  }
+}
+
+.footer-summary{
+  p{
+    width:300px;
+    margin-bottom: $unit-large;
+  }
+}

@@ -1,0 +1,33 @@
+.vision{
+  padding:$unit-large 0;
+  background: #253542;
+
+
+  .section-title{
+    color:#fff;
+
+  }
+
+  .section-subtitle{
+    color: #ffffff;
+    &::after{
+      content: '';
+      height:2px;
+      background: #fff;
+      width: $unit-huge;
+      display: block;
+      margin: $unit 0;
+    }
+  }
+
+  .section-desc{
+
+    color: #FFF;
+    font-size: 0.8em;
+    //line-height:;
+    @media(min-width:$small){
+      width: 60%;
+    }
+  }
+
+}

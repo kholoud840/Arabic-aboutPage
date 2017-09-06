@@ -1,0 +1,27 @@
+header{
+  text-align: center;
+  background: linear-gradient(to right ,#22bbd4,#4f63b8);
+}
+
+nav{
+  ul{
+    margin-right: -$unit-large;
+  }
+  @media (min-width:$small) {
+
+  }
+  .nav-item{
+    display: inline-block;
+    margin-right: $unit-large;
+  }
+  a{
+    color: #fff;
+    padding:$unit-large 0;
+    display: inline-block;
+    border-bottom:2px solid transparent;
+    &:hover{
+      border-bottom:2px solid #fff;
+    }
+  }
+}
+

@@ -1,0 +1,25 @@
+.subscription{
+  text-align: center;
+  padding:$unit-huge 0;
+
+  .content{
+    padding:$unit-large;
+    @media (min-width: $small) {
+      padding:$unit-huge;
+    }
+  }
+  .section-title{
+    font-size: 2em;
+  }
+
+  .section-desc{font-size: 1.2em}
+  .subscribe{
+    margin-top: $unit-large;
+    display: inline-block;
+    border-radius: $unit-large;
+    padding: $unit-small $unit-large;
+    color: #Fff;
+    background: linear-gradient(to right ,#09dcf1,#14b1e8);
+
+  }
+}

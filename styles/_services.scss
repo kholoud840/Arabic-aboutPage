@@ -1,0 +1,17 @@
+.services{
+  background: linear-gradient(#5c6775,#272736 50%,#fca049 50%,#fc7822);
+  background-size: 100%;
+  @media(min-width:$small){
+    background: linear-gradient(to right,#5c6775,#272736 50%,#fca049 50%,#fc7822);
+  }
+  .content{
+    text-align: center;
+    @media(min-width:$small){
+      display: flex;
+    }
+  }
+}
+.service{
+  padding: $unit-huge;
+  color: #FFF;
+}

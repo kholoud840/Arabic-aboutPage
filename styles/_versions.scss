@@ -1,0 +1,31 @@
+.versions{
+  background: linear-gradient(to right ,#22bbd4,#4f63b8);
+  background-size: 100%;
+
+  .content{
+
+    @media (min-width:$small) {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
+.version{
+  padding: $unit-large;
+  color: #FFF;
+  text-align: center;
+}
+
+.version-1{
+
+  @media (min-width:$small) {
+    //text-align: right;
+  }
+}
+.version-2{
+
+  @media (min-width:$small) {
+    text-align: left;
+  }
+}
+
